@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+.container-full-width{
+  height: 100vh;
+}
+
+.row{
+  height: 100%;
+}
+
 /* REGOLE CSS MENU SINISTRA */
 #menusx{
   /* regole flex */
@@ -12,7 +20,7 @@
   justify-content: flex-start;
   flex-flow: column wrap;
   /* regole flex */
-  min-height: 1000px;
+  height: 100%;
   background-color: #000000;
 }
 
@@ -34,6 +42,18 @@ a{
   color: white;
 }
 
+.botsx{
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  border: 2px solid yellow;
+
+}
+
+.botsx img{
+  width: 20px;
+}
+
 /* REGOLE CSS MENU SINISTRA */
 
 /* REGOLE CSS BARRA UPGRADE */
@@ -44,22 +64,30 @@ a{
   /* regole flex */
   height: 100px;
   background-color: #080b12;
+
+}
+
+.bottone{
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
 #premium{
-  padding: 5%;
-  height: 100%;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: inherit;
   border: 2px solid white;
   border-radius: 40px;color: white;
   font-weight: bold;
-  margin-right: 5%;
+  margin-right: 5px;
 }
 /* REGOLE CSS BARRA UPGRADE */
 
 /* REGOLE CSS CORPO CENTRALE */
 #main{
-  min-height: 700px;
+  height: 100%;
+  overflow-y: scroll;
   background-color: 	#141922;
 }
 
