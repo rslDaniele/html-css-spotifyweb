@@ -54,13 +54,43 @@ a{
   border-radius: 40px;color: white;
   font-weight: bold;
   margin-right: 5%;
-
-
 }
+/* REGOLE CSS BARRA UPGRADE */
 
+/* REGOLE CSS CORPO CENTRALE */
 #main{
   min-height: 700px;
   background-color: 	#141922;
+}
+
+.recenti{
+  display:flex;
+  background: pink;
+  border: 2px solid red;
+}
+
+.album{
+  height: 100px;
+  background-color: lightblue;
+  width: 100px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.perte{
+  display: flex;
+  background: pink;
+  border: 2px solid red;
+}
+
+.popolari{
+  display: flex;
+  background: pink;
+  border: 2px solid red;
+}
+
+#cover{
+  width: 100%;
 }
 
 #player{
