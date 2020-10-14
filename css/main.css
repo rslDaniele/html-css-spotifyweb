@@ -64,33 +64,36 @@ a{
 }
 
 .recenti{
-  display:flex;
-  background: pink;
-  border: 2px solid red;
+  display: flex;
+  padding: 50px;
+  text-align: center;
 }
 
 .album{
-  height: 100px;
-  background-color: lightblue;
-  width: 100px;
-  border: 2px solid black;
+  height: 150px;
+  width: 150px;
   margin: 5px;
 }
 
 .perte{
   display: flex;
-  background: pink;
-  border: 2px solid red;
+  padding: 50px;
+  text-align: center;
 }
 
 .popolari{
   display: flex;
-  background: pink;
-  border: 2px solid red;
+  padding: 50px;
+  text-align: center;
 }
 
 #cover{
   width: 100%;
+}
+
+#artisti{
+  width: 100%;
+  border-radius: 50%;
 }
 
 #player{
