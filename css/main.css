@@ -63,6 +63,17 @@ a{
   background-color: 	#141922;
 }
 
+h3{
+  color: white;
+  padding: 2px;
+}
+
+h4{
+  color: grey;
+  padding: 2px;
+}
+
+
 .recenti{
   display: flex;
   padding: 50px;
