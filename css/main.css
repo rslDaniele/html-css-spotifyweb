@@ -1,0 +1,33 @@
+/* REGOLE GENERALI */
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#menusx{
+  min-height: 900px;
+  background-color: red;
+  border: 3px solid yellow;
+}
+
+#upgrade{
+  height: 100px;
+  background-color: lightblue;
+  border: 3px solid black;
+}
+
+#main{
+  min-height: 700px;
+  background-color: green;
+  border: 3px solid black;
+}
+
+#player{
+  height: 100px;
+  background-color: pink;
+  border: 3px solid yellow;
+  position: fixed;
+  bottom: 0;
+}
