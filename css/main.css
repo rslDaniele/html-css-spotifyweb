@@ -13,13 +13,7 @@
   flex-flow: column wrap;
   /* regole flex */
   min-height: 900px;
-  background-color: red;
-  border: 3px solid yellow;
-}
-
-.bar{
-  background-color: blue;
-  border: 2px solid yellow;
+  background-color: #000000;
 }
 
 #logo{
@@ -37,27 +31,33 @@ a{
   padding: 4px;
   text-decoration: none;
   font-weight: bold;
+  color: white;
 }
-
 
 /* REGOLE CSS MENU SINISTRA */
 
+/* REGOLE CSS BARRA UPGRADE */
 #upgrade{
+  /* regole flex */
+  display: flex;
+  justify-content: flex-end;
+  /* regole flex */
   height: 100px;
-  background-color: lightblue;
-  border: 3px solid black;
+  background-color: #080b12;
+}
+
+#premium{
+
 }
 
 #main{
   min-height: 700px;
-  background-color: green;
-  border: 3px solid black;
+  background-color: 	#141922;
 }
 
 #player{
   height: 100px;
-  background-color: pink;
-  border: 3px solid yellow;
+  background-color: #282828;;
   position: fixed;
   bottom: 0;
 }
