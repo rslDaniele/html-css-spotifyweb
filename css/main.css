@@ -1,16 +1,46 @@
 /* REGOLE GENERALI */
 *{
-  margin: auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
+/* REGOLE CSS MENU SINISTRA */
 #menusx{
+  /* regole flex */
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  /* regole flex */
   min-height: 900px;
   background-color: red;
   border: 3px solid yellow;
 }
+
+.bar{
+  background-color: blue;
+  border: 2px solid yellow;
+}
+
+#logo{
+  width: 70%;
+}
+
+#imgmenu{
+  width: 40px;
+
+}
+
+a{
+  display: block;
+  margin-left: 15px;
+  padding: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* REGOLE CSS MENU SINISTRA */
 
 #upgrade{
   height: 100px;
