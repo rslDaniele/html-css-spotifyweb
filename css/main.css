@@ -231,47 +231,38 @@ h4{
   position: fixed;
   bottom: 0;
   display: flex;
+  justify-content: space-between;
 }
 
-.laterale{
-  flex-grow: 1;
-  background-color: red;
+.lateralesx{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.centro{
-  flex-grow: 2;
-  background-color: red;
-  border: 2px solid yellow;
-  text-align: center;
+.lateralesx img{
+  width: 80px;
+  height: 80px;
+  margin: 10px
+}
+
+.lateralesx h3, h4{
+  display: block;
 
 }
 
-.centro a{
-  display: inline-block;
-  vertical-align: middle;
+.pulsanti{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.controlli{
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .barra{
-  height: 10px;
-  width: 60%;
-  background-color: white;
-  margin: auto;
-  margin-top: 10px;
-}
-
-#play i{
-  font-size: 40px;
-}
-
-#player i:hover{
-  font-size: 40px;
-}
-
-.laterale img{
-  width: 15%;
-  margin: 10px;
-}
-
-.laterale h3,h4{
-
+  display: flex;
+  flex-wrap: nowrap;
+  border-top: 3px solid white;
+  margin-top: 20px;
 }
